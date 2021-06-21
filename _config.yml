@@ -6,7 +6,7 @@
 name: Hai Nam
 
 # Short bio or description (displayed in the header)
-description: Kaist Student
+description: Kaist Undergraduate Student
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars.githubusercontent.com/u/70961949?s=400&u=886d7a13ed5569975c6cf77a00c7dfbc709c18f7&v=4
@@ -18,8 +18,8 @@ avatar: https://avatars.githubusercontent.com/u/70961949?s=400&u=886d7a13ed55699
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
-  facebook: 
+  email: 
+  facebook: Hải Nam
   flickr:
   github: SimonCao1207
   instagram:
@@ -28,7 +28,7 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   twitter: Buffeos
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube: channel/<YptEzNINTsoUbFSL_Pmusw> # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
