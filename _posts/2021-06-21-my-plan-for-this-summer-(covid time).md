@@ -15,7 +15,13 @@ _My 2nd semester at Kaist have just ended. Therefore, I have some free time to p
 
 **3. <ins>Algorithms and data structures practice</ins>**
 
+- I create a GUI project [here](https://github.com/SimonCao1207/Maze-Solving) called `Maze Solving` to practice with implementing path finding algorithms like `dfs`, `bfs`, `A*`.
 - [binarysearch](https://binarysearch.com/)
 - [leetcode](https://leetcode.com/)
 - [codeforces](https://codeforces.com/)
 - [hackerrank](https://www.hackerrank.com/)
+
+**2. <ins>Learning java from scartch</ins>**
+<br>I am learning `Java` from scratch.
+I know this going to be a boring journey since I have to get used to the syntax, printing format, etc...<br>
+<br>I will try to solve at least 10 challenges with `java` on hackerank to catch up with the most basic parts of this language. <br>
