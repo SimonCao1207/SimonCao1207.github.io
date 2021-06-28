@@ -2,10 +2,11 @@
 
 <p align="center">
 <img src = "https://github.com/SimonCao1207/SimonCao1207.github.io/blob/master/images/prince_of_peace.jpg?raw=true" width=300>
+</p>
 
 <p align="center"> Prince of peace: made by Akiane at the age of 8 </p>
 
-_So many clues through out the history have shown a devine_ connection between human and God. Nowadays, science still cannot prove the existence of God simply because science
+So many clues through out the history have shown a devine connection between human and God. Nowadays, science still cannot prove the existence of God simply because science
 has not yet developed to that level, not that Gods does not exist. Prominent scientists of modern time, including Albert Einstein himself, are mostly believers of the supernatural Creator.
 
 The same old question still poped up:
