@@ -3,7 +3,7 @@
 <p align="center">
 <img src = "https://github.com/SimonCao1207/SimonCao1207.github.io/blob/master/images/prince_of_peace.jpg?raw=true" width=300>
 
-**<p align="center"> Prince of peace: made by Akiane at the age of 8 </p>**
+<p align="center"> Prince of peace: made by Akiane at the age of 8 </p>
 
 <br>
 So many clues through out the history have shown a devine connection between human and God. Nowadays, science still cannot prove the existence of God simply because science
@@ -13,4 +13,4 @@ has not yet developed to that level, not that Gods does not exist. Prominent sci
 <br>The same old question still poped up:
 `What is the purpose of my existence in this vast universe?`
 <br>
-<img src = "https://github.com/SimonCao1207/SimonCao1207.github.io/blob/master/images/lonely_universe.jpg?raw=true" width = 300>
+<img src = "https://github.com/SimonCao1207/SimonCao1207.github.io/blob/master/images/lonely_universe.jpg?raw=true" width = 400>
