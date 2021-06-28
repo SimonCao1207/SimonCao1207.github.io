@@ -12,8 +12,4 @@ has not yet developed to that level, not that Gods does not exist. Prominent sci
 The same old question still poped up:
 `What is the purpose of my existence in this vast universe?`
 
-<p align="center">
-<img src = "https://github.com/SimonCao1207/SimonCao1207.github.io/blob/master/images/lonely_universe.jpg" width=300>
-</p>
-
-![](images/lonely_universe.jpg)
+<img src = "https://github.com/SimonCao1207/SimonCao1207.github.io/blob/master/images/lonely_universe.jpg?raw=true">
