@@ -11,7 +11,11 @@ _My 2nd semester at Kaist have just ended. Therefore, I have some free time to p
 - Book about [introduction to machine learning interviews](https://huyenchip.com/ml-interviews-book/contents/1.1.1-working-in-research-vs.-workingin-production.html).
   <br>This book was writen by a Vietnamese author [Chip Huyen](https://huyenchip.com/). She's a Stanford professor and is known as a famous fiction book writer in Vietnam.<br>
 
+- Support Vector Machine:
+
 **2. <ins>Learning basic html, css and java script</ins>**
+
+I learned nothing unfortunately. Just some basic html is simply not enough.
 
 **3. <ins>Algorithms and data structures practice</ins>**
 
@@ -21,7 +25,9 @@ _My 2nd semester at Kaist have just ended. Therefore, I have some free time to p
 - [codeforces](https://codeforces.com/)
 - [hackerrank](https://www.hackerrank.com/)
 
-**2. <ins>Learning java from scartch</ins>**
+**4. <ins>Learning java from scartch</ins>**
 <br>I am learning `Java` from scratch.
 I know this going to be a boring journey since I have to get used to the syntax, printing format, etc...<br>
 <br>I will try to solve at least 10 challenges with `java` on hackerank to catch up with the most basic parts of this language. <br>
+
+<ins>_Update_</ins>: I ended up doing nothing. Sadge.
