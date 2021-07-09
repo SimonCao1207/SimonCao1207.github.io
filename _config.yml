@@ -19,7 +19,7 @@ avatar: https://avatars.githubusercontent.com/u/70961949?s=400&u=886d7a13ed55699
 footer-links:
   dribbble:
   email:
-  facebook: https://www.facebook.com/profile.php?id=100014219317503
+  facebook:
   flickr:
   github: SimonCao1207
   instagram:
@@ -46,7 +46,7 @@ url:
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: "http://simoncao1207.github.io"
 
 #
 # !! You don't need to change any of the configuration flags below !!
