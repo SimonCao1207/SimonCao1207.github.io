@@ -1,5 +1,8 @@
 <p align="center">
-<img src="https://github.com/SimonCao1207/SimonCao1207.github.io/blob/9b0f9cec06d5df62acd99b566c69a811eb6d4079/images/kaist_landscape.jpg?raw=true" width=50%>
+<img src="https://github.com/SimonCao1207/SimonCao1207.github.io/blob/9b0f9cec06d5df62acd99b566c69a811eb6d4079/images/kaist_landscape.jpg?raw=true" width=200>
+
+<p align="center">
+<img src = "https://github.com/SimonCao1207/SimonCao1207.github.io/blob/master/images/prince_of_peace.jpg?raw=true" width=300>
 </p>
 
 <p>
