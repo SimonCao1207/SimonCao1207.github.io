@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Academic
-permalink: /Academic/
+title: Test
+permalink: /test/
 published: true
 ---
 
