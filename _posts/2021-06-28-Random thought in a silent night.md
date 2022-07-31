@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 [Akiane Kramarik](https://en.wikipedia.org/wiki/Akiane) is an American poet and painter. She began drawing at the age of four. Kramarik professed she saw the face of Jesus Christ in her visions.Her unique life story kept me awake and could not help thinking about this wonderful life and so many things in this enormous, magnificent universe that we human beings do not capable of understanding.
 
 <p align="center">
