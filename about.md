@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-[me](https://github.com/SimonCao1207/SimonCao1207.github.io/blob/master/images/me.jpg?raw=true)
+<img src="https://github.com/SimonCao1207/SimonCao1207.github.io/blob/master/images/me.jpg?raw=true"  width="480" height="500">
 
 Hi, I am **Hai Nam**, currently a **3rd year** student at [**KAIST university**](https://en.wikipedia.org/wiki/KAIST) in Korea.
 
