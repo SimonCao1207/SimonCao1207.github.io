@@ -1,8 +1,9 @@
 ---
+layout: post
 published: true
 ---
 
-`Recently, I had a discussion with my friend about long-distance relationships. It really intrigued me how these relationships can function, so I did some research and found some points that made sense to me.`
+Recently, I had a discussion with my friend about long-distance relationships. It really intrigued me how these relationships can function, so I did some research and found some points that made sense to me.
 
 Long-distance relationships (LDRs) can be challenging, but they can also be incredibly rewarding. Being in a long-distance relationship requires a lot of trust, communication, and commitment from both partners. It's not for everyone, but for those who are willing to put in the effort, an LDR can be a great way to strengthen a relationship.
 
