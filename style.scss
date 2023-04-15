@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -253,6 +254,69 @@ nav {
 //
 // .main
 //
+
+// Box item is based on this codepen link:  https://codepen.io/SimonCao1207/pen/poxyeRJ
+.box-item {
+  width: 100%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #333;
+}
+
+.box-item .content {
+  display: inline-block;
+  background: #fff;
+  padding: 1em;
+  margin-left: .5em;
+}
+
+.box-item header {
+  overflow: hidden;
+  position: relative;
+}
+
+
+.box-item header h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  background: rgba(0,0,0,0.8);
+  padding: 0 0.3em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.box-item p { 
+  font-family: sans-serif;
+  margin-bottom: 1.5em; 
+}
+
+.box-item h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 0.25em;
+}
+
+.box-item li {
+  margin-bottom: 10px;
+}
+
+.tags > *{
+  // float: left;
+  display: inline-block;
+  background: #f2f2f2;
+  padding: 0 0.5em;
+  margin: 0 0.5em 0 .5em;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+}
+
+.tags .ml { border-bottom-color: #e34c26; }
+.tags .dl { border-bottom-color: #2662e3; }
+.tags .web-dev { border-bottom-color: #8CC84B; }
 
 .posts > .post {
   padding-bottom: 2em;
