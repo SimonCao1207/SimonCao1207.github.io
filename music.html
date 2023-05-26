@@ -23,12 +23,60 @@ permalink: /music/
 <body>
 
 <p>
-    
-I enjoy a wide range of music genres, spanning from classical compositions to popular rock hits. Below are a few notable music pieces, soundtracks, film scores... that I found impressive or I felt overrated by the public. The rating is determined exclusively by my individual viewpoint and personal preference. Enjoy ~~
+  I enjoy a wide range of music genres, spanning from classical compositions to popular rock hits. Below are a few notable music pieces, soundtracks, film scores... that I found impressive or I felt overrated by the public. The rating is determined exclusively by my individual viewpoint and personal preference. Enjoy ~~
 </p>
 
 
-<table style="width:100%">
+<div class="posts">
+  <table style="width:100%">
+    <tr>
+      <th><b>Music</b> </th>
+      <th><b>Rating</b></th>
+    </tr>
+    {% for post in site.categories.Music %}
+      <tr>
+        <td> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </td>
+        {% if post.rating == 5 %}
+          <td><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span></td>
+        {% endif %}
+        {% if post.rating == 4 %}
+          <td><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span></td>
+        {% endif %}
+        {% if post.rating == 3 %}
+          <td><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span></td>
+        {% endif %}
+        {% if post.rating == 2 %}
+          <td><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span></td>
+        {% endif %}
+        {% if post.rating == 1 %}
+          <td><span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span></td>
+        {% endif %}
+      </tr>
+    {% endfor %}
+  </table>
+</div>
+
+<!-- <table style="width:100%">
     <tr>
       <th><b>Music</b> </th>
       <th><b>Rating</b></th>
@@ -49,15 +97,16 @@ I enjoy a wide range of music genres, spanning from classical compositions to po
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star "></span></td>
     </tr>
-    <!-- <tr>
+
+    <tr>
       <td> <a href="{{ site.baseurl }}/Theme-From-Schindler's-List">Theme From Schindler's List</a>  <i>John Williams</i></td>
       <td><span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span></td>
-    </tr> -->
-</table>
+    </tr>
+</table> -->
 
 </body>
 </html>

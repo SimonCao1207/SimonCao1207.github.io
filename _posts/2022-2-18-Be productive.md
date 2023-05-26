@@ -1,6 +1,7 @@
 ---
 layout: post
-# published: true
+categories: Blog
+published: true
 ---
 
 

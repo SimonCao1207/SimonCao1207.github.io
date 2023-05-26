@@ -1,6 +1,8 @@
 ---
 layout: post
+categories: Music
 published: true
+rating: 5
 ---
 
 ![alt text](../images/paris1.jpg "Title")
