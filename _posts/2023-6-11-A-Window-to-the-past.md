@@ -9,7 +9,7 @@ rating: 5
     How to embed audio from onedrive (see this : https://stackoverflow.com/questions/64590120/how-can-i-directly-embed-audio-that-i-have-uploaded-to-onedrive-into-html-using)
  -->
 
-![lupin-harry](../asset/images/lupin.jpg)
+![lupin-harry](../assets/images/lupin.jpg)
 
 *The scene with Lupin and Harry on the bridge*
 
