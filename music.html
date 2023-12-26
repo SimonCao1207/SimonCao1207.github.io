@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: hacker
 permalink: /music/
 ---
 
@@ -21,16 +21,23 @@ permalink: /music/
 </head>
 
 <body>
+<ul>
+  <li>
+    <p>
+      I love listening to music especially classical genre, and film scores (if you considered it as a music genre of course). 
+      In my opinion, there's no better combination than music and film when it comes to capturing and conveying the wide range of emotions and feelings that exist. It is that powerful !
+    </p>
+  </li> 
+  <li>
+    <p>
+      This is a place dedicated to store some notable music pieces with my personal reflections. Most of them are soundtracks, film scores...that I find impressive and memorable. Enjoy ~~
+      <!-- TODO: Alan MenKen,  Michael Giacchino -->
+    </p>
+  </li>
+</ul>
 
-<p>
-  I love listening to music especially classical genre, and film scores (if you considered it as a music genre of course). 
-  In my opinion, there's no better combination than music and film when it comes to capturing and conveying the wide range of emotions and feelings that exist. It is that powerful !
-</p>
 
-<p>
-  This is a place dedicated to store some notable music pieces with my personal reflections. Most of them are soundtracks, film scores...that I find impressive and memorable. Enjoy ~~
 
-</p>
 
 <div class="posts">
   <table style="width:100%">
@@ -40,7 +47,7 @@ permalink: /music/
     </tr>
     {% for post in site.categories.Music %}
       <tr>
-        <td> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </td>
+        <td> <a href="{{ site.baseurl }}/../{{ post.url }}">{{ post.title }}</a> </td>
         {% if post.rating == 5 %}
           <td><span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>

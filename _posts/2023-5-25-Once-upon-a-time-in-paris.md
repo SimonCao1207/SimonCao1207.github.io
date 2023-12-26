@@ -5,7 +5,7 @@ published: true
 rating: 4
 ---
 
-![alt text](../images/paris1.jpg "Title")
+![alt text](../asset/images/paris1.jpg "Title")
 
 *Boulevard des Capucines" Edouard Léon Cortès (1882 - 1969)*
 
