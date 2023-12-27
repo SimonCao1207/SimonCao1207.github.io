@@ -2,6 +2,7 @@
 layout: hacker
 ---
 
+
 <h2>About me</h2>
 <p>
     I am <b>Hai Nam</b>, currently a senior student pursuing B.Sc. in Computer Science at KAIST. I will be graduating next June.
@@ -15,6 +16,9 @@ layout: hacker
 <p>
     Feel free to check out my <a href="./assets/pdf/cv_updated.pdf">CV</a> which contains my contact information you might need.    
 </p>
+
+
+<img src="../assets/images/lonely_universe.jpg" alt="drawing" style="width:600px;"/>
 
         
     
