@@ -14,7 +14,7 @@ layout: hacker
     I love playing sports especially football and badminton. I am also the organizer of a Vietnamese badminton club at KAIST. We play badminton every Wednesday, Friday and Sunday ! I play guitar as a hobby as well, although I can't claim to be too good. 
 </p>
 <p>
-    Feel free to check out my <a href="./assets/pdf/cv_updated.pdf">CV</a> which contains my contact information you might need.    
+    Feel free to check out my <a href="./assets/pdf/cv_jan_4.pdf">CV</a> which contains my contact information you might need.    
 </p>
 
 
