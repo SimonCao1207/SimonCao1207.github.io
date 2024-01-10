@@ -47,8 +47,8 @@ permalink: /projects/
 
 | Title        | Description        |
 |:-------------|:------------------|
-| [Img-Classifier-JS](https://github.com/SimonCao1207/Img-Classifier-JS)  | build an image classification on browswer with tensorflowJS |
 | [Sudoku-Solver](https://github.com/SimonCao1207/SudokuSolver)   | build a sudoku solver using openCV and CNN model |
+| [Img-Classifier-JS](https://github.com/SimonCao1207/Img-Classifier-JS)  | build an image classification on browswer with tensorflowJS |
 
 
 
