@@ -5,10 +5,17 @@
 // IMPORTS
 //
 
-@import "reset";
-@import "variables";
+@use "reset";
+@use "variables";
+@use "highlights";
+@use "svg-icons";
+@use "jekyll-theme-hacker";
+
+// External imports
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-// Syntax highlighting @import is at the bottom of this file
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 /**************/
 /* BASE RULES */
@@ -19,9 +26,9 @@ html {
 }
 
 body {
-  background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  background: variables.$white;
+  font: 18px/1.4 variables.$helvetica;
+  color: variables.$darkGray;
 }
 
 .container {
@@ -37,15 +44,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: variables.$helveticaNeue;
+  color: variables.$darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
 
-  @include mobile {
+  @include variables.mobile {
     line-height: 1.4;
   }
 }
@@ -67,7 +74,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: variables.$gray;
 }
 
 p {
@@ -75,12 +82,12 @@ p {
 }
 
 a {
-  color: $blue;
+  color: variables.$blue;
   text-decoration: none;
   cursor: pointer;
   &:hover,
   &:active {
-    color: $blue;
+    color: variables.$blue;
   }
 }
 
@@ -131,17 +138,17 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: variables.$gray;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: variables.$black;
+  background: variables.$lightGray;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: variables.$black;
+  background: variables.$lightGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -170,9 +177,9 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid variables.$lightGray;
 
-  @include mobile {
+  @include variables.mobile {
     text-align: center;
   }
 }
@@ -183,7 +190,7 @@ img {
   height: 70px;
   margin-right: 15px;
 
-  @include mobile {
+  @include variables.mobile {
     float: none;
     display: block;
     margin: 0 auto;
@@ -197,7 +204,7 @@ img {
 .site-info {
   float: left;
 
-  @include mobile {
+  @include variables.mobile {
     float: none;
     display: block;
     margin: 0 auto;
@@ -206,9 +213,9 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: variables.$darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: variables.$helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -216,10 +223,10 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: variables.$gray;
   font-size: 16px;
 
-  @include mobile {
+  @include variables.mobile {
     margin: 3px 0;
   }
 }
@@ -227,10 +234,10 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: variables.$helveticaNeue;
   font-size: 18px;
 
-  @include mobile {
+  @include variables.mobile {
     float: none;
     margin-top: 9px;
     display: block;
@@ -239,14 +246,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: variables.$darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
-    @include mobile {
+    @include variables.mobile {
       margin: 0 10px;
-      color: $blue;
+      color: variables.$blue;
     }
   }
 }
@@ -320,7 +327,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid variables.$lightGray;
 }
 
 .posts > .post:last-child {
@@ -331,9 +338,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em 0.8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid variables.$gray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: variables.$gray;
     font-size: 22px;
     font-style: italic;
   }
@@ -352,18 +359,10 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: variables.$lightGray;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
 }
-
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
-@import "svg-icons";
-@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
-@import url('https://fonts.googleapis.com/css?family=Raleway');
